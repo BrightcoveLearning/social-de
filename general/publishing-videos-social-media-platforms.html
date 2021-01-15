@@ -1,0 +1,764 @@
+﻿<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  
+  <title>Veröffentlichen von Videos auf Social Media-Plattformen</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">  
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-ultra.eot" type="font/eot">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-ultra.woff" type="font/woff">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-super.eot" type="font/eot">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-super.woff" type="font/woff">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-black.eot" type="font/eot">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-black.woff" type="font/woff">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-bold.eot" type="font/eot">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-bold.woff" type="font/woff">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-medium.eot" type="font/eot">
+  <link data-react-helmet="true" rel="preload" as="font" href="https://files.brightcove.com/fonts/balto/baltoweb-medium.woff" type="font/woff">
+  <link data-react-helmet="true" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500&amp;display=swap">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/prism.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/styles.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/landing-page.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/tabs.css">
+  <link rel="stylesheet" href="/assets/css/local.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/381443caa8.js" crossorigin="anonymous"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/google-analytics.js"></script>
+  <script src="/assets/js/sajari-head.js"></script>
+</head>
+
+<body class="body">
+
+<header>
+  <div class="div-header">
+    <a href="/"><span class="product-logo" style="font-family:'Balto Web','Public Sans';font-size:2em;font-weight:bold;">BRIGHTCOVE SOZIAL<sup>™</sup></span></a>
+<!-- GTranslate: https://gtranslate.io/ -->
+<select onchange="doGTranslate(this);"><option value="">Sprache wählen</option><option value="en|en" translate="No">English</option><option value="en|zh-TW" translate="No">繁體中文</option><option value="en|fr" translate="No">Français</option><option value="en|de" translate="No">Deutsche</option><option value="en|ja" translate="No">日本語</option><option value="en|ko" translate="No">한국어</option><option value="en|es" translate="No">Español</option></select>
+
+<script>
+/* <![CDATA[ */
+function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
+/* ]]> */
+</script>
+
+    <select id="site_select" class="bcls-select" style="margin-right: 1rem;">
+      <option value="">Weitere Brightcove Docs</option>
+      
+        
+          <option value="https://support.brightcove.com">Dokumentation Home</option>
+        
+      
+        
+          <option value="https://audience.support.brightcove.com">Brightcove Publikum</option>
+        
+      
+        
+          <option value="https://beacon.support.brightcove.com">Brightcove Leuchtfeuer</option>
+        
+      
+        
+          <option value="https://campaign.support.brightcove.com">Brightcove Kampagne</option>
+        
+      
+        
+          <option value="https://engage.support.brightcove.com">Brightcove Engage</option>
+        
+      
+        
+          <option value="https://live.support.brightcove.com">Brightcove Live</option>
+        
+      
+        
+          <option value="https://gallery.support.brightcove.com">Brightcove Gallery</option>
+        
+      
+        
+          <option value="https://ssai.support.brightcove.com">Brightcove SSAI</option>
+        
+      
+        
+          <option value="https://social.support.brightcove.com">Brightcove Social</option>
+        
+      
+        
+          <option value="https://studio.support.brightcove.com">Video Cloud Studio</option>
+        
+      
+        
+          <option value="https://player.support.brightcove.com">Brightcove Spieler-Entwicklung</option>
+        
+      
+        
+          <option value="https://apis.support.brightcove.com">APIs für Video Cloud-Plattform</option>
+        
+      
+        
+          <option value="https://sdks.support.brightcove.com">Videocloud-Geräte-SDKs</option>
+        
+      
+        
+          <option value="https://integrations.support.brightcove.com">Integrationen und CMS-Konnektoren</option>
+        
+      
+        
+          <option value="https://general.support.brightcove.com">Video Cloud — Allgemeine Informationen</option>
+        
+      
+        
+          <option value="https://zencoder.support.brightcove.com">Zencoder</option>
+        
+      
+    </select>
+
+
+    <span class="secondary-nav"><a href="https://supportportal.brightcove.com/s/login/?"><img src="https://support.brightcove.com/site-assets/images/site/support.png" alt="Support"/> Kontaktieren Sie Support</a> <span style="vertical-align: top;margin-left:1em;margin-right:1em;">|</span> <a href="https://status.brightcove.com/"><img src="https://support.brightcove.com/site-assets/images/site/status.png" alt="Systemstatus"/> Systemstatus</a></span> <br/>
+    
+  </div>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb arr-right">
+      
+      <li class="breadcrumb-item"><a href="/">Nach Hause</a></li>
+      
+      
+      
+      <li class="breadcrumb-item"><a href="/general/">Allgemeine Informationen</a></li>
+      
+      <li class="breadcrumb-item active" aria-current="page">Veröffentlichen von Videos auf Social Media-Plattformen</li>
+    </ol>
+  </nav>
+</header>
+<div class="container">
+    <div class="row">
+      <div class="col-sm-3 left-side-bar">
+        <nav class="sidenav" id="side_nav">
+          
+            
+            <h5><a href="/index.html">Nach Hause</a></h5>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/get-started/index.html">Erste Schritte <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/get-started/getting-started-brightcove-social.html">Erste Schritte mit Audience</a></li>
+                  
+                
+                  
+                    <li><a href="/get-started/social-training-videos.html">Videos für soziale Schulungen</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/general/index.html">Allgemeine Informationen <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/general/creating-social-media-publishing-destinations.html">Erstellen von Veröffentlichungszielen</a></li>
+                  
+                
+                  
+                    <li><a href="/general/creating-video-clip-using-brightcove-social.html">Erstellen eines Videoclips</a></li>
+                  
+                
+                  
+                    <li><a href="/general/publishing-videos-social-media-platforms.html">Veröffentlichen von Videos in sozialen Medien</a></li>
+                  
+                
+                  
+                    <li><a href="/general/setting-privacy-status-video.html">Festlegen des Datenschutzstatus für ein Video</a></li>
+                  
+                
+                  
+                    <li><a href="/general/using-auto-sync-synchronize-videos-social-media-accounts.html">Auto-Synchronisierung verwenden</a></li>
+                  
+                
+                  
+                    <li><a href="/general/viewing-videos-published-social-media.html">In sozialen Medien veröffentlichte Videos ansehen</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/analytics/index.html">Überprüfen von Analytics <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/analytics/reviewing-social-analytics.html">Überprüfung von Social Analytics</a></li>
+                  
+                
+                  
+                    <li><a href="/analytics/reviewing-social-engagement-analytics.html">Überprüfen von Social Engagement Analytics</a></li>
+                  
+                
+                  
+                    <li><a href="/analytics/reviewing-social-views-analytics.html">Überprüfen von Social Views Analytics</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/develop/index.html">Entwickler <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/develop/overview-social-api.html">Übersicht: Soziale API</a></li>
+                  
+                
+                  
+                    <li><a href="/develop/quick-start-social-api.html">Kurzanleitung: Soziale API</a></li>
+                  
+                
+                  
+                    <li><a href="/develop/reference.html">Referenz zur sozialen API</a></li>
+                  
+                
+                  
+                    <li><a href="/develop/social-api-error-reference.html">Soziale API: Error-Referenz</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/support/index.html">unterstützung <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/support/brightcove-answer.html">Brightcove Antworten</a></li>
+                  
+                
+                  
+                    <li><a href="/support/viewing-brightcove-system-status-page.html">Anzeigen der Seite „Systemstatus von Brightcove“</a></li>
+                  
+                
+                  
+                    <li><a href="/support/contact-sales.html">Kontakt mit dem Vertrieb</a></li>
+                  
+                
+                  
+                    <li><a href="/support/opening-case-with-brightcove-support.html">Einen Supportfall öffnen</a></li>
+                  
+                
+              </ul>
+            
+          
+      </nav>
+    </div>
+    <div class="col-lg-7" style="background-color: white;color: #333333;margin-top: -1em;margin-bottom: -1em;padding-bottom:1em;">
+  <!-- bootstrap layout -->
+
+<p id="bc_veggie_burger_wrapper" style="display: none;"><img id="bc_veggie_burger" src="/assets/images/feather/menu.svg" alt="Menü „Navigation"/></p>
+
+<!-- search bar -->
+<div id="nav-search-box" style="margin-top: 1rem;"></div>
+<!-- in-page navigation for narrow screens -->
+<details class="centered-inpage-nav" id="centered_inpage_nav">
+  <summary><h6 class="toc">Inhalt der Seite</h6></summary>
+  <nav id="centered_toc"></nav>
+  <ul id="centered_in_page_toc" class="list-none"></ul>
+</details>
+<!-- open in new tab/window -->
+<a id="open_new_tab" href="#" target="_blank" style="display: none;"><img src="/assets/images/feather/external-link.svg" alt="in neuem Tab öffnen" style="margin-top:4em;width: 1.5em;"/></a>
+
+
+
+  
+    
+
+
+<article class="bcls-article">
+  <h1>Veröffentlichen von Videos auf Social Media-Plattformen</h1>
+  <summary>In diesem Thema erfahren Sie, wie Sie mit Brightcove Social Videos in sozialen Medien veröffentlichen.</summary>
+  <section class="bcls-section">
+    <div class="training-video-player-ipx" data-experience="5a73630f7afd7a00101bc1b5" data-video-ids="5018055033001">&nbsp;</div>
+    <script src="https://players.brightcove.net/20318290001/experience_5a73630f7afd7a00101bc1b5/live.js"></script>
+    <p>Brightcove Social ermöglicht es Ihnen, Videos in Ihrem Video Cloud-Konto ganz einfach auf YouTube, Facebook und Twitter zu veröffentlichen. Das Veröffentlichen von Videos ist erst nach dem Erstellen von Veröffentlichungszielen für die Social-Media-Konten möglich, in denen Sie Videos veröffentlichen möchten. Informationen über das Erstellen von Veröffentlichungszielen finden Sie unter <a href="/general/creating-social-media-publishing-destinations.html">Erstellen von Social Media-Veröffentlichungszielen</a>.</p>
+    <p>Beachten Sie, dass die Verwendung von Auto Sync und die manuelle Veröffentlichung von Videos mit dem Social-Modul unabhängige Vorgänge sind. Auto Sync ist nicht bekannt, welche Videos manuell mit dem Social-Modul veröffentlicht wurden. Wenn ein Video auf eine Weise markiert ist, die dazu führt, dass Auto Sync es an einem Ihrer sozialen Ziele veröffentlicht, wird dies unabhängig davon durchgeführt, ob dieses Video zuvor manuell mit dem Social-Modul veröffentlicht wurde.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="rules">Zu veröffentlichende Wiedergabeversion festlegen</h2>
+    <p>Um Videos an eine soziale Plattform zu verteilen, sollte für Videos mindestens eine MP4-Wiedergabe oder ein Videomaster verfügbar sein. Videos, die mit einem der bereitgestellten Brightcove-Profile hochgeladen wurden, speichern standardmäßig einen Master. Weitere Informationen über Archivierungsmaster finden Sie im Dokument <a href="https://apis.support.brightcove.com/ingest-profiles/guides/archiving-masters.html">Archiving Masters</a> .</p>
+    <p>Bei der Verteilung von Videos auf eine soziale Plattform wird Brightcove Social versuchen, die Wiedergabe von höchster Qualität zu verbreiten, die den Regeln der einzelnen sozialen Plattform entspricht. Wenn die an die soziale Plattform gesendete Wiedergabe abgelehnt wird, wird nicht versucht, eine weitere Wiedergabe zu senden.</p>
+    <p>Die Vorgaben zur Rangfolge von Videos lauten wie folgt:</p>
+    <ul>
+      <li>MP4-Versionen sind besser als jeder andere Video-Container. Es wird kein Versuch unternommen, die anderen Arten von Video-Containern abzurufen.</li>
+      <li>Sind die Video-Container von gleicher Qualität, gilt das Video mit der höheren Codierrate als besser.</li>
+      <li>Sind die Codierraten von gleicher Qualität, gilt das Video mit der höheren Auflösung als besser. Da nicht alle Wiedergabeversionen eines Videos das gleiche Seitenverhältnis haben, vergleichen wir die Video-Auflösung aufgrund eines berechneten Werts, der die Höhe und Breite der Videos berücksichtigt.</li>
+    </ul>
+    <p>Verfügt ein Video nicht über die oben genannten Informationen, die für den Vergleich nötig sind, gilt das Video als „schlechter“ als das Video, das alle erforderlichen Informationen enthält.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="publish">Videos auf Social Media-Plattformen veröffentlichen</h2>
+    <p>Führen Sie nach dem <a href="/general/creating-social-media-publishing-destinations.html">Erstellen von Veröffentlichungszielen</a> die folgenden Schritte aus, um Videos auf Social-Media-Plattformen zu veröffentlichen.</p>
+    <ol class="bcls-tasklist-restart">
+      <li>Öffnen Sie Brightcove Social.</li>
+      <li>Klicken Sie im linken Navigationsbereich auf <strong>Videos</strong>. Eine Liste aller Videos in Ihrem Video Cloud-Konto wird angezeigt. Videos, die nicht auf einem Social-Media-Konto veröffentlicht wurden, zeigen <strong>den Status „</strong> <strong>Nie veröffentlicht</strong> an. Videos, die veröffentlicht wurden, werden <strong>„Status überprüfen“</strong>angezeigt. Klicken Sie auf den Link, um den Veröffentlichungsstatus des Videos in den Social-Media-Destinationen anzuzeigen.
+        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-video-list.png"/></figure>
+      </li>
+      <li>Klicken Sie auf ein Video zum Veröffentlichen und dann auf <strong>Veröffentlichen</strong>.
+        <aside class="bcls-aside bcls-aside--information">Hinweis: Videos, die DRM-aktiviert sind, zeigen ein Schlosssymbol im Video-Thumbnail an. DRM-fähige Videos, die mit einem Dynamic Delivery Ingest-Profil aufgenommen wurden, können veröffentlicht werden, können jedoch nicht heruntergeladen oder Clips erstellt werden. Diese Schaltflächen werden deaktiviert, wenn ein DRM-aktiviertes Video ausgewählt ist.</aside>
+      </li>
+      <li>Wählen Sie die Zielorte, an denen das Video veröffentlicht werden soll. Sie können auch auf <strong>Neues Ziel hinzufügen</strong> klicken, um <a href="/general/creating-social-media-publishing-destinations.html">ein neues Ziel zu erstellen</a>.
+        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-publish-preview.png"/></figure>
+        <aside class="bcls-aside bcls-aside--information">Hinweis: Ziele mit einem Fehler zeigen neben dem Namen ein Fehlersymbol (<img alt="" src="/assets/images/general/node16344-error-icon.png"/>) an. Wählen Sie das Ziel aus und klicken Sie dann auf <strong>Wiederverbinden</strong> , um das Problem zu lösen.</aside>
+      </li>
+      <li>Überprüfen Sie die Video-Metadateneigenschaften für jedes Ziel. Die Video-Eigenschaften unterscheiden sich abhängig von der Social-Media-Plattform, auf der Sie veröffentlichen. Weitere Informationen finden Sie in den Abschnitten zu jeder Social-Media-Plattform:
+        <ul>
+          <li><a href="#youtube">YouTube</a></li>
+          <li><a href="#facebook">Facebook</a></li>
+          <li><a href="#twitter">Twitter</a></li>
+        </ul>
+      </li>
+      <li>Klicken Sie auf die Schaltfläche <strong>Publish to Destination</strong>, um die Videos zu veröffentlichen. Klicken Sie im linken Navigationsbereich auf <strong>Published</strong>, um den Verteilungsstatus zu überwachen. Weitere Informationen über das Anzeigen des Status von Veröffentlichungsstreams finden Sie unter <a href="/general/viewing-videos-published-social-media.html">Veröffentlichungs-Streams für Social Media anzeigen</a>.</li>
+    </ol>
+    <p>Das Veröffentlichen von Videos über die Schaltfläche Veröffentlichen ist ein einmaliger Veröffentlichungsvorgang. Mit dieser Methode veröffentlichte Videos erhalten nach dem ersten Upload keine Metadaten-Updates vom Social-Modul.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="youtube">Video-Eigenschaften für YouTube festlegen</h2>
+    <p>Standardmäßig können Videos, die bis zu 15 Minuten lang sind, auf YouTube hochgeladen werden. Informationen zum Hochladen längerer Videos finden Sie unter <a href="https://studio.support.brightcove.com/general/enabling-longer-videos-youtube.html">Aktivieren längerer Videos auf YouTube</a>. Nachdem ein Video auf YouTube veröffentlicht wurde, werden alle Aktualisierungen des Quellvideos in Studio auf der YouTube-Seite nicht aktualisiert.</p>
+    <p>Bei der Auswahl eines YouTube-Ziels können folgende Video-Eigenschaften konfiguriert werden:</p>
+    <ul>
+      <li><a href="#ytthumb">Thumbnail-Quelle</a></li>
+      <li><a href="#ytpostinfo">Infos posten</a></li>
+      <li><a href="#ytschedule">Planen</a></li>
+      <li><a href="#ytcaptions">Bildunterschriften</a></li>
+      <li><a href="#ytvisibility">Sichtbarkeit</a></li>
+      <li><a href="#ytlicense">Lizenz</a></li>
+    </ul>
+    <aside class="bcls-aside bcls-aside--information">
+      Hinweise:
+      <ul>
+        <li><a href="creating-social-media-publishing-destinations.html#youtube_defaults">Standardvideoeigenschaften für YouTube</a> können durch Bearbeiten des Ziels festgelegt werden.</li>
+        <li>Die YouTube-API unterstützt nicht die Deaktivierung von Kommentaren über ihre aktuelle API, sodass es keine Möglichkeit gibt, Kommentare in der Social-Benutzeroberfläche zu deaktivieren.</li>
+        <li>Vermeiden Sie Sonderzeichen im Namen und in der Beschreibung des Videos: Es ist bekannt, dass die Verwendung von &gt; "" oder "" zu Fehlern führt, aber andere Sonderzeichen können ebenfalls Probleme verursachen. &lt;</li>
+      </ul>
+    </aside>
+    <div id="ytthumb" class="BCL-subsection">
+      <h3>Konfigurieren der Thumbnail-Quelle</h3>
+        <p>Beim Posten auf YouTube kann die Video-Thumbnail-Quelle auf Folgendes eingestellt werden:</p>
+      <ul>
+        <li><strong>YouTube</strong> - YouTube wählt ein Vorschaubild</li>
+        <li><strong>Video Cloud</strong> - Verwenden Sie das Video Cloud-Miniaturbild als YouTube-Vorschaubild</li>
+        <li><strong>Benutzerdefiniertes Bild</strong> - Durchsuchen und wählen Sie ein benutzerdefiniertes Miniaturbild aus</li>
+      </ul>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-yt-thumb.png"/></figure>
+      <p>Wenn Sie „ <strong>Verwendung für alle Ziele</strong> “ aktivieren, wird diese Miniaturansicht für alle Ziele verwendet, die derzeit veröffentlicht werden.</p>
+      <aside class="bcls-aside bcls-aside--information">Hinweis: Bevor du benutzerdefinierte Video-Thumbnails von Brightcove Social auf YouTube posten kannst, muss dein YouTube-Konto überprüft werden. Informationen zur Überprüfung Ihres YouTube-Kontos finden Sie unter <a href="https://www.youtube.com/verify">diesem Link</a>.</aside>
+      <aside class="bcls-aside bcls-aside--information">Hinweis: Aktualisierungen von Miniaturbildern in Studio aktualisieren das Miniaturbild auf der YouTube-Seite nicht.</aside>
+    </div>
+    <div id="ytpostinfo" class="BCL-subsection">
+      <h3>Post Info-Eigenschaften konfigurieren</h3>
+      <p>Klicken Sie auf den Link <strong>POST INFO Info</strong> . Die folgenden YouTube-Video-Eigenschaften sind konfigurierbar:</p>
+      <ul>
+        <li><strong>Titel</strong> - Titel des Videos (standardmäßig der Video Cloud-Titel). YouTube unterstützt bis zu 100 Zeichen.</li>
+        <li><strong>Beschreibung</strong> - Beschreibung des Videos (standardmäßig auf Video Cloud Kurzbeschreibung). YouTube unterstützt bis zu 5000 Zeichen.</li>
+        <li><strong>YouTube-Kategorie</strong> - Inhaltskategorie für</li>
+        <li><strong>Tags</strong> - Tags für das Video (standardmäßig auf Video Cloud-Tags). Es gibt kein spezifisches Tag-Count-Limit; Sie können maximal 30 Zeichen pro Tag verwenden, und das Textfeld akzeptiert bis zu 500 Zeichen.</li>
+      </ul>
+      <aside class="bcls-aside bcls-aside--information">Ein paar Dinge, die Sie über das Zeichenlimit für Tags beachten sollten:
+        <ol>
+          <li>Der Eigenschaftswert ist eine Liste, und Kommas zwischen Elementen in der Liste werden auf das Limit von 500 Zeichen angerechnet.</li>
+          <li>Wenn ein Tag ein Leerzeichen enthält, verarbeitet der API-Server den Tag-Wert, als wäre er in Anführungszeichen eingeschlossen, und die Anführungszeichen werden auf das Zeichenlimit angerechnet. Wenn Sie also ein Tag wie haben <code translate="No">late news</code>, wird dies als 11 Zeichen behandelt <code translate="No">"late news"</code> und zählt als 11 Zeichen (einschließlich der Anführungszeichen).</li>
+          <li>Wenn du das Charakterlimit für Tags überschritten hast, wird im Modul Soziales kein Fehler gemeldet. Um zu überprüfen, ob Videos erfolgreich geteilt wurden, klicken Sie in der linken Navigationsleiste auf <strong>Veröffentlicht</strong> , überprüfen Sie YouTube oder rufen Sie den Status über die <a href="/develop/overview-social-api.html">Social API</a>ab.</li>
+        </ol>
+      </aside>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-yt-post-info.png"/></figure>
+    </div>
+    <div id="ytschedule" class="BCL-subsection">
+      <h3>Planungseigenschaften konfigurieren</h3>
+      <p>Klicken Sie auf den Link <strong>SCHEDULE</strong> und wählen Sie eine Zeitplaneinstellung aus:</p>
+      <ul>
+        <li><strong>Sofort veröffentlichen</strong> - So veröffentlichen Sie das Video sofort</li>
+        <li><strong>Veröffentlichungsdatum planen</strong> - So wählen Sie ein Veröffentlichungsdatum und eine Uhrzeit für das Video aus.</li>
+      </ul>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-yt-schedule-info.png"/></figure>
+      <aside class="bcls-aside bcls-aside--information">Hinweis: Das Datum und die Uhrzeit des Zeitplans werden nur einmal an YouTube gesendet, wenn das Video an YouTube gesendet wird. Wenn das Zeitplandatum und/oder die Uhrzeit geändert werden muss, müssen sie in YouTube geändert werden. Das Social-Modul aktualisiert nach der ersten Synchronisierung mit YouTube keine Zeitermine oder -zeiten.</aside>
+      <aside class="bcls-aside bcls-aside--information">Hinweis: Damit die <a href="#ytvisibility">Sichtbarkeit des Videos</a> auf <strong>Nicht gelistet</strong> oder <strong>Privat</strong> eingestellt ist, legen Sie die Option <strong>Zeitplan</strong> auf <strong>Sofort veröffentlichen</strong> fest und legen Sie die <strong>Sichtbarkeit fest</strong> Option auf <strong>Nicht gelistet</strong> oder <strong>Privat</strong>.</aside>
+    </div>
+    <div id="ytcaptions" class="BCL-subsection">
+      <h3>Konfigurieren der Eigenschaften von Beschriftungen</h3>
+      <p>Klicken Sie auf den Link <strong>CAPTIONS</strong> . Wählen Sie die Quelle für die Untertitel aus:</p>
+      <ul>
+        <li><strong>Video Cloud-Untertitel verwenden</strong> - Verwendet die mit dem Video verbundenen Untertitel. Informationen zum Arbeiten mit Untertiteln in Video Cloud finden Sie unter <a href="https://studio.support.brightcove.com/media/overview-adding-captions-video.html">Überblick: Hinzufügen von Untertiteln zu einem Video</a>.</li>
+        <li><strong>Keine Bildunterschriften</strong> - Es werden keine Untertitel an YouTube gesendet</li>
+        <li><strong>Untertitel hochladen</strong> - Klicken Sie auf <strong>Untertitel hochladen</strong> und durchsuchen und wählen Sie eine Untertiteldatei aus. Die Untertiteldatei sollte im VTT- oder SRT-Format vorliegen. Wählen Sie die <strong>Beschriftungssprache</strong> aus, fügen Sie eine <strong>Bezeichnung</strong> hinzu und wählen Sie das <strong>Format</strong>aus. Klicken Sie auf <strong>Untertiteldatei hinzufügen</strong>.</li>
+      </ul>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-yt-captions-info.png"/></figure>
+    </div>
+    <aside class="bcls-aside bcls-aside--information">Videos mit Untertiteln können über Social abgeschnitten werden, das resultierende abgeschnittene Video wird jedoch keine Untertitel enthalten. Sie müssen neue Untertitel in das abgeschnittene Video hochladen, und Social verwendet diese bei der Veröffentlichung.</aside>
+    <div id="ytvisibility" class="BCL-subsection">
+      <h3>Konfigurieren der Visibility-Eigenschaften</h3>
+      <p>Klicken Sie auf den Link <strong>VISIBILITY</strong> und wählen Sie eine Datenschutzeinstellung für das Video aus. Folgende Datenschutzeinstellungen sind verfügbar:</p>
+      <ul>
+        <li><strong>Public</strong> – jeder kann das Video ansehen.</li>
+        <li><strong>Unlisted</strong> – jeder, der über den Link verfügt, kann das Video ansehen.</li>
+        <li><strong>Private</strong> – das Video kann nur von Ihnen und ausgewählten Benutzern angesehen werden.</li>
+      </ul>
+      <aside class="bcls-aside bcls-aside--information">Hinweis: Mit YouTube-Zielen ist es möglich, die Datenschutzeinstellung dynamisch über ein mit dem Video verknüpftes benutzerdefiniertes Feld zuzuweisen. Informationen finden Sie unter <a href="/general/setting-privacy-status-video.html">Festlegen des Datenschutzstatus für ein Video</a>.</aside>
+      <p>Es gibt auch eine Einstellung für <strong>Abonnenten benachrichtigen, wenn das Video auf YouTube gepostet wird</strong>. Wenn dies ausgewählt ist, sehen Ihre Abonnenten Ihre Videos in ihrem Abonnement-Feed und erhalten möglicherweise eine Benachrichtigung, dass das Video hochgeladen wurde.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-yt-privacy-info.png"/></figure>
+      <aside class="bcls-aside bcls-aside--information">Hinweis: Weitere Informationen über YouTube-Datenschutzeinstellungen finden Sie in der <a href="https://support.google.com/youtube/answer/157177">YouTube-Dokumentation</a>.</aside>
+    </div>
+    <div id="ytlicense" class="BCL-subsection">
+      <h3>Lizenzeigenschaften konfigurieren</h3>
+      <p>Klicken Sie auf den Link <strong>LIZENZIEREN</strong> und wählen Sie eine Einstellung für Lizenz- und Rechtebesitz für das Video aus. Folgende Einstellungen sind verfügbar:</p>
+      <ul>
+        <li>Standard YouTube License</li>
+        <li>Creative Commons - Namensnennung</li>
+      </ul>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-yt-license-info.png"/></figure>
+      <aside class="bcls-aside bcls-aside--information">Hinweis: Weitere Informationen über die YouTube-Lizenz und die Rights Ownership-Einstellung finden Sie in der <a href="https://support.google.com/youtube/answer/2797468">YouTube-Dokumentation</a>.</aside>
+    </div>
+  </section>
+  <section class="bcls-section">
+    <h2 id="facebook">Video-Eigenschaften für Facebook festlegen</h2>
+    <p>Bei der Auswahl eines Facebook-Ziels können die folgenden Videoeigenschaften konfiguriert werden:</p>
+    <ul>
+      <li><a href="#fbthumb">Thumbnail</a></li>
+      <li><a href="#fbpostinfo">Infos posten</a></li>
+      <li><a href="#fbschedule">Planen</a></li>
+      <li><a href="#fbcaptions">Bildunterschriften</a></li>
+      <li><a href="#fbtarget">Target</a></li>
+      <li><a href="#fbmonetize">Monetarisieren</a></li>
+      <li><a href="#fbrights">Rechte</a></li>
+      <li><a href="#fbdistribution">Verteilung</a></li>
+      <li><a href="#fbtracking">Tracking</a></li>
+    </ul>
+    <p>Nachdem ein Video auf Facebook veröffentlicht wurde, werden alle Aktualisierungen des Quellvideos in Studio auf Facebook-Seite nicht aktualisiert.</p>
+    <aside class="bcls-aside bcls-aside--information">Hinweis: <a href="creating-social-media-publishing-destinations.html#facebook_defaults">Standardvideoeigenschaften für Facebook</a> können durch Bearbeiten des Ziels festgelegt werden.</aside>
+    <aside class="bcls-aside bcls-aside--information">Hinweis: Facebook lässt keine .gif-Bilder zu. Verwendet Ihr Video für die Miniaturansicht ein .gif-Bild, schlägt die Veröffentlichung bei Facebook fehl.</aside>
+    <div id="fbthumb" class="BCL-subsection">
+      <h3>Konfigurieren der Thumbnail-Quelle</h3>
+      <p>Wenn Sie auf Facebook posten, kann die Video-Thumbnail-Quelle auf Folgendes eingestellt werden:</p>
+      <ul>
+        <li><strong>Facebook</strong> - Facebook wählt ein Vorschaubild</li>
+        <li><strong>Video Cloud</strong> - Verwenden Sie das Video Cloud-Miniaturbild als Facebook-Vorschaubild</li>
+        <li><strong>Benutzerdefiniertes Bild</strong> - Durchsuchen und wählen Sie ein benutzerdefiniertes Miniaturbild aus</li>
+      </ul>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-fb-thumb.png"/></figure>
+      <p>Wenn Sie „ <strong>Verwendung für alle Ziele</strong> “ aktivieren, wird diese Miniaturansicht für alle Ziele verwendet, die derzeit veröffentlicht werden.</p>
+      <aside class="bcls-aside bcls-aside--information">Hinweis: Aktualisierungen von Miniaturbildern in Studio aktualisieren das Miniaturbild auf der Facebook-Seite nicht.</aside>
+    </div>
+    <div id="fbpostinfo" class="BCL-subsection">
+      <h3>Post Info-Eigenschaften konfigurieren</h3>
+      <p>Klicken Sie auf den Link <strong>POST INFO</strong> . Die folgenden Facebook-Video-Eigenschaften sind konfigurierbar:</p>
+      <ul>
+        <li><strong>Titel</strong> - Titel des Videos (standardmäßig der Video Cloud-Titel). Facebook wird nach 65 Zeichen abgeschnitten</li>
+        <li><strong>Statusmeldung</strong> - Beschreibung des Videos (standardmäßig auf Video Cloud Kurzbeschreibung). Beachten Sie, dass Facebook seine Such-API deaktiviert hat, daher ist es uns nicht möglich, eine Facebook-Erwähnung automatisch zu vervollständigen.</li>
+        <li><strong>Tags</strong> - Wählen Sie ein Facebook-Tag aus der Liste aus. Beachten Sie, dass Facebook die Tags verwaltet. Das Modul Soziale muss diese einhalten, damit Social die Liste überprüft, wenn sie in das Feld <strong>Tags</strong> eingegeben wird.</li>
+        <li><strong>Facebook-Kategorie</strong> - Inhaltskategorie für das</li>
+      </ul>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-fb-post-info.png"/></figure>
+    </div>
+    <div id="fbschedule" class="BCL-subsection">
+      <h3>Planungseigenschaften konfigurieren</h3>
+      <p>Klicken Sie auf den Link <strong>SCHEDULE</strong> . Wählen Sie <strong>Sofort veröffentlichen</strong> aus, um das Video sofort zu veröffentlichen, oder wählen Sie <strong>Veröffentlichungsdatum planen</strong> und wählen Sie <strong>Datum und Uhrzeit der Veröffentlichung</strong>aus. Sie können auch festlegen, dass <strong>Beiträge niemals ablaufen oder „Ablauf</strong> <strong>planen </strong> “ auswählen und dann ein <strong>Ablaufdatum und eine Ablaufzeit</strong>auswählen. Es kann auch eine<strong> Zeitzone</strong> ausgewählt werden.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-fb-schedule-info.png"/></figure>
+      <aside class="bcls-aside bcls-aside--information">Hinweis: Das Datum und die Uhrzeit des Zeitplans werden nur einmal an Facebook gesendet, wenn das Video an Facebook gesendet wird. Wenn das Zeitplandatum und/oder die Uhrzeit geändert werden müssen, müssen sie in Facebook geändert werden. Das Social-Modul aktualisiert nach der ersten Synchronisierung mit Facebook keine Zeitermine oder -zeiten.</aside>
+    </div>
+    <div id="fbcaptions" class="BCL-subsection">
+      <h3>Konfigurieren der Eigenschaften von Beschriftungen</h3>
+      <p>Klicken Sie auf den Link <strong>CAPTIONS</strong> . Wählen Sie die Quelle für die Untertitel aus:</p>
+      <ul>
+        <li><strong>Video Cloud-Untertitel verwenden</strong> - Verwendet die mit dem Video verbundenen Untertitel. Informationen zum Arbeiten mit Untertiteln in Video Cloud finden Sie unter <a href="https://studio.support.brightcove.com/media/overview-adding-captions-video.html">Überblick: Hinzufügen von Untertiteln zu einem Video</a>.
+          <p>Für Bildunterschriften benötigt Facebook eine <code translate="No">language</code>, die Social aus der <code translate="No">language</code> Textspur bevölkert <code translate="No">name</code>, und eine, die Social aus der <code translate="No">label</code> auf der Textspur.</p>
+          <p>Beachten Sie, dass der <code translate="No">name</code> für die Zuschauer im Facebook-Player über das Menü „Einstellungen“ und das Menü „Bildunterschriften“ sichtbar ist. Wir empfehlen, dass Textspur-Labels auf etwas eingestellt werden, das für die Zuschauer sinnvoll ist. (Zum Beispiel Beschriftung von Untertiteln in verschiedenen Sprachen in diesen Sprachen.)</p>
+        </li>
+        <li><strong>Keine Bildunterschriften</strong> - Es werden keine Untertitel an YouTube gesendet</li>
+        <li><strong>Untertitel hochladen</strong> - Klicken Sie auf <strong>Untertitel hochladen</strong> und durchsuchen und wählen Sie eine Untertiteldatei aus. Die Untertiteldatei sollte im VTT- oder SRT-Format vorliegen. Wählen Sie die Beschriftung <strong>Sprache</strong> und <strong>Format</strong>aus. Klicken Sie auf <strong>Untertiteldatei hinzufügen</strong>.</li>
+      </ul>
+      <aside class="bcls-aside bcls-aside--information">Hinweis: Facebook verlangt, dass die Untertitelsprache zusätzlich zur Sprache ein Land enthält, z. B. en-US oder en-UK. Ein Sprachcode nur eines Ländercodes (d. h. „uns“) schlägt bei der Synchronisierung fehl.</aside>
+      <aside class="bcls-aside bcls-aside--information">Videos mit Untertiteln können über Social abgeschnitten werden, das resultierende abgeschnittene Video wird jedoch keine Untertitel enthalten. Sie müssen neue Untertitel in das abgeschnittene Video hochladen, und Social verwendet diese bei der Veröffentlichung.</aside>
+
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-fb-captions-info.png"/></figure>
+    </div>
+    <div id="fbtarget" class="BCL-subsection">
+      <h3>Konfigurieren der Target-Eigenschaften</h3>
+      <p>Klicken Sie auf den Link <strong>TARGET</strong> , um festzulegen, wo das Video gesehen werden kann. Die folgenden Optionen sind verfügbar:</p>
+      <ul>
+        <li><strong>Interessen der Zielgruppenoptimierung</strong> - Fügen Sie Tags hinzu, um die Interessen von Personen zu beschreiben, die Ihren Beitrag am ehesten genießen. Weitere Informationen finden Sie in der <a href="https://www.facebook.com/facebookmedia/get-started/interest-targeting">Facebook-Dokumentation</a>.</li>
+        <li><strong>Standortbeschränkungen</strong> - Fügen Sie Länder hinzu, die Sie vom Anzeigen des Beitrags einschließen</li>
+      </ul>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-fb-targeting-info.png"/></figure>
+    </div>
+    <div id="fbmonetize" class="BCL-subsection">
+      <h3>Konfigurieren der Monetarisiere-Eigenschaften</h3>
+      <p>Klicken Sie auf den Link<strong> MONETIZE </strong>. Die folgenden Eigenschaften können festgelegt werden:</p>
+      <ul>
+        <li><strong>Wer ist Ihr Geschäftspartner für Beiträge an diesem Ziel?</strong> - Fügen Sie einen Geschäftspartner für Beiträge zu Markeninhalten hinzu. Während der Eingabe wird eine Liste der passenden Unternehmen angezeigt. Informationen zu Facebook-Markeninhalten finden Sie in der <a href="https://www.facebook.com/facebookmedia/solutions/branded-content">Facebook-Dokumentation</a>.</li>
+        <li><strong>Geschäftspartner erlauben, Beiträge zu verstärken</strong></li>
+      </ul>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-fb-monetize-info.png"/></figure>
+    </div>
+    <div id="fbrights" class="BCL-subsection">
+      <h3>Konfigurieren der Rechte-Eigenschaften</h3>
+      <aside class="bcls-aside bcls-aside--information">Hinweis: Ihr Facebook-Konto muss Zugriff auf den Facebook-Rechtemanager haben, damit die Option „Rechte“ angezeigt wird.</aside>
+      <p>Klicken Sie auf den Link<strong> RECHTE </strong>. Die folgenden Eigenschaften können festgelegt werden:</p>
+      <ul>
+        <li><strong>Entdeckung passender Inhalte</strong> - Aktivieren Sie diese Option, um die Verwaltung von Facebook Informationen dazu finden Sie in der <a href="https://rightsmanager.fb.com">Facebook-Dokumentation</a>.</li>
+        <li><strong>Eigentümerschaft angeben</strong> - Geben Sie Urheberrechtseigentum für Video, Audio oder beides an</li>
+        <li><strong>Länderauswahl</strong> - Wählen Sie <strong>Weltweit</strong> , <strong>Länder einschließen</strong> oder <strong>Länder ausschließen</strong>. Wenn einschließen oder ausschließen ausgewählt ist, fügen Sie die <strong>Standortbeschränkungen</strong>hinzu.</li>
+        <li><strong>Übereinstimmungsregel anwenden</strong> - Wählen Sie eine Regel aus. Die <strong>Vergleichsregel</strong> bestimmt, welche automatischen Aktionen ausgeführt werden, wenn Personen übereinstimmende Videos hochladen. Die Spielregeln werden innerhalb von Facebook verwaltet.</li>
+        <li><strong>Erlaubnis erteilen</strong> - Autorisieren Sie bestimmte Personen, Seiten oder Instagram-Konten, die Erlaubnis zu haben, Videos zu veröffentlichen, die zu Ihren Inhalten passen.</li>
+      </ul>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-fb-rights-info.png"/></figure>
+    </div>
+    <div id="fbdistribution" class="BCL-subsection">
+      <h3>Konfigurieren der Distributionseigenschaften</h3>
+      <p>Klicken Sie auf den Link <strong>DISTRIBUTION</strong> , um festzulegen, wo das Video zu sehen ist. Die folgenden Optionen für<strong> benutzerdefinierte Verteilung und Moderation </strong>sind verfügbar:</p>
+      <ul>
+        <li><strong>Im Newsfeed anzeigen</strong> - Zeigt Video im News Feed</li>
+        <li><strong>Einbetten zulassen</strong> - Videoeinbettungen auf Websites von Drittanbietern zulassen</li>
+        <li><strong>Als geheimes Video hinzufügen</strong> - Videos sind nur über eine direkte URL zugänglich und können nicht nach Personen auf Facebook gesucht werden
+          <ul>
+            <li><strong>Schalten Sie Reaktionen, Kommentare und Aktien</strong> aus - Unzulässt Likes und Kommentare</li>
+          </ul>
+        </li>
+      </ul>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-fb-distribution.png"/></figure>
+    </div>
+    <div id="fbtracking" class="BCL-subsection">
+      <h3>Konfigurieren der Tracking-Eigenschaften</h3>
+      <p>Klicken Sie auf den Link <strong>TRACKING</strong> , um eine universelle ID zuzuweisen, mit der das Video systemübergreifend verfolgt Die folgenden <strong>Universal ID-Optionen</strong> sind verfügbar:</p>
+      <ul>
+        <li>Leere lassen</li>
+        <li>Verwenden der Video-ID aus der Video Cloud</li>
+        <li>Verwenden Sie die Referenz-ID aus Video Cloud, falls vorhanden</li>
+      </ul>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-fb-tracking.png"/></figure>
+    </div>
+  </section>
+  <section class="bcls-section">
+    <h2 id="twitter">Video-Eigenschaften für Twitter festlegen</h2>
+    <p>Bei der Auswahl eines Twitter-Ziels können die folgenden Eigenschaften konfiguriert werden:</p>
+    <ul>
+      <li><a href="#twpostinfo">Infos posten</a></li>
+    </ul>
+    <p class="BCL-aside">Nachdem ein Video auf Twitter veröffentlicht wurde, werden alle Aktualisierungen des Quellvideos in Studio auf Twitter nicht mehr aktualisiert.</p>
+    <aside class="bcls-aside bcls-aside--information">Hinweis:<a href="creating-social-media-publishing-destinations.html#twitter_defaults"> Standardvideoeigenschaften für Twitter</a> können durch Bearbeiten des Ziels festgelegt werden.</aside>
+    <div id="twpostinfo" class="BCL-subsection">
+      <h3>Post Info-Eigenschaften konfigurieren</h3>
+      <p>Klicke auf den Link <strong>POST INFO</strong> und gib den <strong>Tweet-Inhalt</strong> ein. Beachten Sie, dass @mentions beim Senden an Twitter in #hashtags umgewandelt wird. Weitere Informationen finden Sie im Blogbeitrag <a href="https://www.brightcove.com/en/blog/2018/11/deprecation-twitter-mentions-brightcove-social">Abschreibung von Twitter @mentions in Brightcove Social</a>.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-twitter-tweet.png"/></figure>
+    </div>
+  </section>
+  <section class="bcls-section">
+    <h2 id="clip">Erstellen eines Clips</h2>
+    <p>Brightcove Social bietet die Möglichkeit, Videoclips aus vorhandenen Videos in Ihrem Video Cloud-Konto zu erstellen. Clips können als kurze Teaser-Videos verwendet werden, die in sozialen Medien gepostet werden können. Um einen Clip zu erstellen, klicken Sie auf <strong>Clip erstellen</strong>. Informationen zum Erstellen eines Clips finden Sie unter <a href="/general/creating-video-clip-using-brightcove-social.html">Erstellen eines Videoclips mit Brightcove Social</a>.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="download">Videos herunterladen</h2>
+    <p>Brightcove Social bietet die Möglichkeit, die Video-URL zu kopieren oder eine Videoquelldatei herunterzuladen. Beim Download wird die MP4-Wiedergabeversion in der höchsten Qualität heruntergeladen. Sind keine MP4-Wiedergabeversionen vorhanden, ist der Link <strong>Download</strong> deaktiviert.</p>
+    <aside class="bcls-aside bcls-aside--information">Hinweis: Sie können keine Videos herunterladen, für die DRM aktiviert ist (Sperre wird im Miniaturbild des Videos angezeigt). Wenn Sie ein DRM-fähiges Video auswählen, wird die Schaltfläche <strong>Download</strong> deaktiviert.</aside>
+    <p>Verfahren Sie folgendermaßen, um ein Video herunterzuladen.</p>
+    <ol class="bcls-tasklist-restart">
+      <li>Öffnen Sie Brightcove Social.</li>
+      <li>Klicken Sie im linken Navigationsbereich auf <strong>Videos</strong>. Eine Liste aller Videos in Ihrem Video Cloud-Konto wird angezeigt.</li>
+      <li>Klicken Sie auf das Video zum Herunterladen und dann auf <strong>Herunterladen</strong>.</li>
+      <li>Kopieren Sie die Video-URL, oder klicken Sie auf den Link, um das Video im Browser zu öffnen. <span class="bcl-aside">Klicken Sie rechts auf das Video, um die Quelldatei lokal zu speichern.</span>
+        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-download-info1.png"/></figure>
+      </li>
+      <li>Klicken Sie auf <strong>Done</strong>.</li>
+    </ol>
+    <p>Der Download-Link soll es Ihnen ermöglichen, die Datei herunterzuladen oder die URL als Wert zu verwenden, der dem Uploader-Modul einer sozialen Plattform zur Verfügung gestellt werden kann (für Plattformen, die das Hochladen von einer URL unterstützen). Die URL soll keine langlebige, öffentlich zugängliche URL sein, die Sie in einen Beitrag zur öffentlichen sozialen Plattform einfügen würden.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="viewvc">Anzeigen von Videos im Medienmodul</h2>
+    <p>Videos auf der Seite Videos können im Medienmodul angezeigt werden, indem Sie auf ein Video klicken und dann auf <strong>In Medien anzeigen</strong>klicken.</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-view-in-vc.png"/></figure>
+  </section>
+  <section class="bcls-section">
+    <h2 id="status">Veröffentlichte Ziele anzeigen</h2>
+    <p>Videos, bei denen versucht wurde, in sozialen Medien veröffentlicht zu werden, werden in der Spalte <strong>Status überprüfen</strong> angezeigt.</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-status1.png"/></figure>
+    <p>Wenn Sie auf den Link <strong>Status überprüfen</strong> klicken, wird eine Liste der sozialen Ziele angezeigt, in denen das Video veröffentlicht wurde, sowie den Status der Veröffentlichung.</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-published-locations1.png"/></figure>
+  </section>
+  <section class="bcls-section">
+    <h2 id="360">360°-Videos veröffentlichen</h2>
+    <p>YouTube, Facebook und der Brightcove Player unterstützen die 360°-Videowiedergabe. Wenn ein 360°-Video mit Brightcove Social auf YouTube oder Facebook veröffentlicht wird, wird das Video im 360°-Modus wiedergegeben. Während der Verarbeitung des 360°-Effekts kann eine Verzögerung auftreten. Bevor Sie 360°-Videos auf Video Cloud hochladen, müssen Sie einige Dinge tun. Informationen zum Arbeiten mit 360°-Videos finden Sie unter <a href="https://studio.support.brightcove.com/general/working-360deg-videos.html">Arbeiten mit 360°-Videos</a>. Sobald dein Video hochgeladen wurde, ist der Prozess zum Veröffentlichen von 360°-Videos derselbe wie bei normalen Videos.</p>
+    <aside class="bcls-aside bcls-aside--information">Hinweis: Die Wiedergabe von 360°-Videos ist auf bestimmte Browser beschränkt.</aside>
+    <aside class="bcls-aside bcls-aside--information">Hinweis: Wenn Sie das Social-Modul zum Synchronisieren eines 360°-Videos verwenden, muss das Aufschlussprofil, das zur Aufnahme des Videos verwendet wird, so konfiguriert werden, dass die Master-Datei gespeichert wird, sonst wird das Video nicht in 360° synchronisiert.</aside>
+  </section>
+</article>
+
+<!-- complete bootstrap layout -->
+    </div>
+    <div class="col-sm-2 right-side-bar">
+      
+      <nav class="right-side-nav" id="right_side_nav">
+        <h6 class="toc">Inhalt der Seite</h6>
+        <ul id="in_page_nav" class="list-none"></ul>
+      </nav>
+      
+    </div>
+  </div>
+</div>
+
+<hr>
+<div class="last-updated">
+  Seite zuletzt aktualisiert am 24 Nov. 2020
+</div>
+
+
+
+<footer class="bcls-footer" role="contentinfo">
+  <div class="row">
+    <div class="region region-footer-top-center col-md-12">
+      <nav role="navigation" aria-labelledby="block-brightcovesupport-menu" id="block-brightcovesupport" class="footer-menu">
+
+        <h2>Brightcove Support-Service</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://status.brightcove.com">Systemstatus</a>
+          </li>
+          <li>
+            <a href="https://supportportal.brightcove.com/s/login/?">Kontakt mit dem Support</a>
+          </li>
+          <li>
+            <a href="https://support.brightcove.com/">DOKUMENTATION</a>
+          </li>
+        </ul>
+
+      </nav>
+      <nav role="navigation" aria-labelledby="block-training-menu" id="block-training" class="footer-menu">
+
+        <h2>Schulungen</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://studio.support.brightcove.com/training/online-training-courses.html">Online-Kurse</a>
+          </li>
+          <li>
+            <a href="https://studio.support.brightcove.com/training/register-training.html">Für einen Kurs anmelden</a>
+          </li>
+          <li>
+            <a href="https://university.brightcove.com/">Brightcove Universität</a>
+          </li>
+        </ul>
+
+      </nav>
+      <nav role="navigation" aria-labelledby="block-brightcove-menu" class="footer-menu">
+
+        <h2>Brightcove</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://www.brightcove.com">brightcove.com</a>
+          </li>
+          <li>
+            <a href="https://supportportal.brightcove.com/s/login/?">Kontaktiere uns</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="row">
+    <div class="region region-footer-bottom-center col-md-12">
+      <div class="bcls-copyright footer-menu">
+        <table>
+          <tr>
+            <td>
+              <div id="bc_copyright" class="field field--name-field-copyright-year field--type-string field--label-hidden field--item" style="float: left;"> Brightcove Inc. Alle Rechte vorbehalten.</div>
+            </td>
+            <td><a href="https://www.brightcove.com/en/legal/privacy">Privacy</a> | <a href="https://www.brightcove.com/en/terms-and-conditions">Allgemeine Geschäftsbedingungen</a></td>
+            <td>
+              <div class="gf-links-cols footer-menu">
+                <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" newtab="newtab" class="gf-social-linkedin"><i class="fab fa-linkedin-in" style="font-size: 1.5rem;"></i></a><a href="https://twitter.com/brightcove" title="Twitter" newtab="newtab" class="gf-social-twitter"><i class="fab fa-twitter" style="font-size: 1.5rem;"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" newtab="newtab" class="gf-social-facebook"><i class="fab fa-facebook-f" style="font-size: 1.5rem;"></i></a>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="talla_wrapper">
+  <p style="text-align: right;position: relative;"><button style="background:rgb(2, 28, 146);color:Snow;padding:.3rem;position:fixed;right:0;bottom:1em;z-index:9999999" onclick="javascript:displayChat()">Fragen? </button> </p>
+  <div id="talla_chat">
+</div>
+</div>
+<script>
+      
+  var searchBox = sajari.init({
+    mode: "search-box",
+    project: "1588255093746585379", // Set this to your project.
+    collection: "brightcove-documenation", // Set this to your collection.
+    instantPipeline: "autocomplete", // Pipeline used as you type
+    inputPlaceholder: "Search", // Input element placeholder
+    maxSuggestions: 5, // Maximum number of suggestions to show
+    attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to
+  });
+  
+    searchBox("sub", "pipeline.search-sent", function (_, query) {
+      window.location = "/search.html?q=" + encodeURIComponent(query.q);
+    });
+  
+
+</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/https-fix.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/setDate.js"></script>
+  
+  <script src="https://support.brightcove.com/site-assets/js/site/prism.js"></script>
+  
+  <script src="https://support.brightcove.com/site-assets/js/site/site.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/tabs.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/toc.js"></script>
+  <script src="/assets/js/sites_nav.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/bcls-utils.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/local-link-fix.js"></script>
+  <script src="/assets/js/feedback.js"></script>
+  
+  <script src="/assets/js/sajari-search-foot.js"></script>
+  
+  <!-- <script src="/assets/js/sajari-index.js"></script> -->
+  <script src="https://assets.talla.com/latest/embeddedjs/talla.js"></script>
+  <script src="/assets/js/talla-init.js"></script>
+  <style>
+    a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
+      background-color: lightblue;
+    }
+    div.sj-tabs__tab {
+      margin-top: 3rem;
+      margin-left: .3rem;
+      border-top-left-radius: .4rem;
+      border-top-right-radius: .4rem;
+      background-color:#e8e8e8;
+    }
+
+    div.sj-tabs__tab.sj-tabs__tab--selected {
+      border-bottom-color: crimson;
+      background-color: #f8f8f8;
+    }
+
+    p.sj-results__result__description.css-p9jvyt {
+      font-size: 1rem;
+    }
+
+    .sj-result__text.css-31l7gp h3 {
+      color: navy;
+      font-size: 1.4rem;
+    }
+    </style>
+
+</body>
+
+</html>
